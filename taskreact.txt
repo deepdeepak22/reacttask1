@@ -1,0 +1,152 @@
+___________________________app.js__________________________________________________
+
+
+import './App.css';
+
+function App() {
+  return (
+    <div className = "container">
+      <div className="cards">
+      <div className="card1">
+          <div className="head1">free</div>
+          <div className="price">
+            <h1>$0/Month</h1>
+          </div>
+          <div className="content">
+          <div>✔️Single User</div>
+          <br />
+          <div >✔️50 Gb Storage</div>
+          <br />
+          <div>✔️Unlimited Public Projects</div>
+          <br />
+          <div>✔️Community Access</div>
+          <br />
+          <div>❌Unlimited Private Projects</div>
+          <br />
+          <div>❌Dedicated Phone Support</div>
+          <br />
+          <div>❌Free Subdomain</div>
+          <br />
+          <div>❌Monthly Status Reports</div>
+
+
+          </div>
+      </div>
+      <div className="card2">
+      <div className="head1">Plus</div>
+          <div className="price">
+            <h1>$9/Month</h1>
+            </div> 
+          <div className="content">
+          <div>✔️Single User</div>
+          <br />
+          <div>✔️50 Gb Storage</div>
+          <br />
+          <div>✔️Unlimited Public Projects</div>
+          <br />
+          <div>✔️Community Access</div>
+          <br />
+          <div>✔️Unlimited Private Projects</div>
+          <br />
+          <div>✔️Dedicated Phone Support</div>
+          <br />
+          <div>✔️Free Subdomain</div>
+          <br />
+          <div>❌Monthly Status Reports</div>
+
+            </div>
+          
+      </div>
+      <div className="card3">
+      <div className="head1">Pro</div>
+          <div className="price">
+            <h1>$49/Month</h1>
+          </div>
+          <div className="content">
+          <div>✔️Single User</div>
+          <br />
+          <div>✔️50 Gb Storage</div>
+          <br />
+          <div>✔️Unlimited Public Projects</div>
+          <br />
+          <div>✔️Community Access</div>
+          <br />
+          <div>✔️Unlimited Private Projects</div>
+          <br />
+          <div>✔️Dedicated Phone Support</div>
+          <br />
+          <div>✔️Free Subdomain</div>
+          <br />
+          <div>✔️Monthly Status Reports</div>
+          </div>
+      </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+___________________app.css______________________________________________________________________
+
+
+.App {
+  text-align: center;
+}
+.container{
+  margin: auto;
+  margin-top: 50px;
+  height: 500px;
+  width: 760px;
+  border: 2px solid black;
+  background-color: rgb(48, 48, 173);
+}
+.card1{
+  background-color: white;
+  height: 450px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border-radius: 3%;
+  
+}
+.card2{
+  background-color: white;
+  height: 450px;
+  width: 200px;
+  position: relative;
+  top: -430px;
+  left: 250px;
+  border-radius: 3%;
+  
+}
+.card3{
+  background-color: white;
+  height: 450px;
+  width: 200px;
+  position: relative;
+  bottom: 880px;
+  left: 500px;
+  border-radius: 3%;
+  
+}
+.cards{
+  margin: auto;
+}
+.head1{
+  text-align: center;
+}
+.price{
+  text-align: center;
+}
+.content{
+  font-size: 12px;
+  margin: 20px; 
+}
+
+
+
